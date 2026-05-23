@@ -1,88 +1,101 @@
-💬 Sentiment Analysis using Machine Learning
+## 💬 Sentiment Analysis using Machine Learning
 
-A machine learning project that classifies text into Positive or Negative sentiment using Natural Language Processing (NLP) techniques and multiple machine learning models.
+---
 
-
-
-🚀 Project Overview
+## 🚀 Project Overview
 
 This project focuses on analyzing text data and predicting sentiment using machine learning.
 It includes a complete NLP pipeline: data preprocessing, exploratory data analysis, feature extraction, model training, evaluation, and a Streamlit web application for real-time sentiment prediction.
 
+---
 
-📊 Dataset
+## 📊 Dataset
 
 This project uses the IMDb dataset for sentiment analysis.
 
-Dataset Source: https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz  
-Contains 50,000 labeled movie reviews  
-Balanced dataset:
-  - 25,000 training samples
-  - 25,000 testing samples
-  - Positive / Negative classese
+Dataset Source: [https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz](https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz)
 
+* 50,000 labeled movie reviews
+* Balanced dataset:
 
-🧹 Data Preprocessing
+  * 25,000 training samples
+  * 25,000 testing samples
+  * Positive / Negative classes
 
-Convert text to lowercase
-Remove HTML tags
-Remove punctuation and numbers
-Remove stopwords
-Apply stemming
+---
 
+## 🧹 Data Preprocessing
 
-📈 Exploratory Data Analysis (EDA)
+* Convert text to lowercase
+* Remove HTML tags
+* Remove punctuation and numbers
+* Remove stopwords
+* Apply stemming
 
-Sentiment distribution analysis
-WordCloud visualization
-Most frequent words analysis
+---
 
+## 📈 Exploratory Data Analysis (EDA)
 
-🔢 Feature Extraction
+* Sentiment distribution analysis
+* WordCloud visualization
+* Most frequent words analysis
 
-TF-IDF Vectorization
-N-grams (1,2)
-max_features = 5000
+---
 
+## 🔢 Feature Extraction
 
-🤖 Machine Learning Models
+* TF-IDF Vectorization
+* N-grams (1,2)
+* max_features = 5000
 
-Logistic Regression
-Random Forest
-Naive Bayes
-Support Vector Machine (SVM)
-Neural Network (MLPClassifier)
+---
 
+## 🤖 Machine Learning Models
 
-🏆 Model Evaluation
+* Logistic Regression
+* Random Forest
+* Naive Bayes
+* Support Vector Machine (SVM)
+* Neural Network (MLPClassifier)
 
-Accuracy Score
-Classification Report
-Confusion Matrix
+---
 
+## 🏆 Model Evaluation
 
-🧪 Sample Predictions
+* Accuracy Score
+* Classification Report
+* Confusion Matrix
 
-"This product is very good" → Positive 😊
-"This was a terrible experience" → Negative 😡
+---
 
+## 🧪 Sample Predictions
 
-💻 Streamlit Dashboard
+* "This product is very good" → Positive 😊
+* "This was a terrible experience" → Negative 😡
+
+---
+
+## 💻 Streamlit Dashboard
 
 An interactive web application built with Streamlit for real-time sentiment prediction.
 
+---
 
-▶ Run the App
+## ▶ Run the App
 
+```bash
 streamlit run app.py
+```
 
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python • Pandas • NumPy • Scikit-learn • NLTK • Matplotlib • Seaborn • Streamlit
 
+---
 
-👩‍💻 Author
+## 👩‍💻 Author
 
 Asmaa Mohamed AbdelFatah
 AI Student – DecodLabs Project
