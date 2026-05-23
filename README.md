@@ -11,10 +11,14 @@ It includes a complete NLP pipeline: data preprocessing, exploratory data analys
 
 📊 Dataset
 
-Labeled text dataset
-Balanced classes:
-Positive
-Negative
+This project uses the IMDb dataset for sentiment analysis.
+
+Dataset Source: https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz  
+Contains 50,000 labeled movie reviews  
+Balanced dataset:
+  - 25,000 training samples
+  - 25,000 testing samples
+  - Positive / Negative classese
 
 
 🧹 Data Preprocessing
@@ -75,16 +79,6 @@ streamlit run app.py
 🛠️ Tech Stack
 
 Python • Pandas • NumPy • Scikit-learn • NLTK • Matplotlib • Seaborn • Streamlit
-
-
-🚀 How to Run
-
-Install dependencies
-pip install -r requirements.txt
-Run Jupyter Notebook
-jupyter notebook
-Run Streamlit App
-streamlit run app.py
 
 
 👩‍💻 Author
